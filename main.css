@@ -1,0 +1,114 @@
+/* Color Scheme: http://www.colourlovers.com/palette/2198491/Hello_my_Darling. */
+
+body {
+	font-family: 'Helvetica Neue';
+	font-size: 0.9em;
+	color: #624F53;
+	margin: 0;
+}
+
+/* Navigation and Search Bar */
+
+input, select {
+	border-radius: 5px;
+	color: #624F53;
+	background: #EEE;
+	border: none;
+	float: left;
+	margin: 0 0.5%;
+	width: 14.5%;
+}
+
+input {
+	padding: 8px 1%;
+}
+
+input[type='submit'] {
+	padding: 7px 1%;
+}
+
+input[name='name'] {
+	width: 26%;
+}
+
+.selectDiv {
+	border-radius: 5px;
+	margin: 0 0.5%;
+	background: #EEE;
+	width: 14.5%;
+	min-width: 144px;
+	float: left;
+}
+
+.selectArrow {
+	float: left;
+	margin-top: 12px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 8.7px 5px 0 5px;
+	border-color: #624f53 transparent transparent transparent;
+}
+
+.selectStyle {
+	float: left;
+	overflow: hidden;
+	width: 85%;
+}
+
+select {
+	padding: 7px 0;
+	background: rgba(0,0,0,0);
+	width: 115%;
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+#nav {
+	background: #6588AE;
+	padding-top: 20px;
+	height: 50px;
+}
+
+/* Search Results */
+
+a {
+	color: #C8C5C0;
+	text-decoration: none;
+}
+
+form {
+	width: 60%;
+	margin: 0 auto;
+}
+
+h3 {
+	color: #624F53;
+	margin: 5px 0;
+}
+
+.description {
+	width: 60%;
+	padding: 5px 0 5px;
+	border-bottom: 2px solid #C8C5C0;
+	color: #C8C5C0;
+}
+
+#searchResults {
+	padding: 10px 20%;
+}
+
+.result:nth-of-type(1) {
+	margin: 15px 0 10px;
+}
+
+.result {
+	margin: 10px 0;
+}
+
+/* Full School Information */
+
+.schoolContainer {
+	margin: 0 20%;
+}
